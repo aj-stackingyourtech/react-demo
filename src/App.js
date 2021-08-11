@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// Material-UI imports
+import { ThemeProvider } from '@material-ui/core/styles';
+import Grid from "@material-ui/core/Grid";
+import { theme } from "./styles/theme";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// MSAL imports
+import { MsalProvider } from "@azure/msal-react";
+
+// Sample app imports
+import { PageLayout } from "./ui-components/PageLayout";
+import { Home } from "./pages/Home";
+import { Protected } from "./pages/Protected";
+
+function App({ pca }) {
+
+	return (
+		<Router>
+			<ThemeProvider theme={theme}>
+				<MsalProvider instance={pca}>
+					<PageLayout>
+						<Grid container justify="center">
+							<Pages />
+						</Grid>
+					</PageLayout>
+				</MsalProvider>
+			</ThemeProvider>
+		</Router>
+	);
+}
+
+function Pages() {
+	return (
+		<Switch>
+			<Route path="/protected">
+				<Protected />
+			</Route>
+			<Route path="/">
+				<Home />
+			</Route>
+		</Switch>
+	)
 }
 
 export default App;
