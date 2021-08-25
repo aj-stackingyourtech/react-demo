@@ -6,11 +6,20 @@ import App from './App';
 import { PublicClientApplication } from "@azure/msal-browser";
 import { msalConfig } from "./authConfig";
 
+// LogRocket
+
+import LogRocket from 'logrocket';
+import setupLogRocketReact from 'logrocket-react';
+LogRocket.init('jcg6ee/azure-react-demo-dev');
+setupLogRocketReact(LogRocket);
+
 const msalInstance = new PublicClientApplication(msalConfig);
 
+
 ReactDOM.render(
-	<React.StrictMode>
-		<App pca={msalInstance} />
-	</React.StrictMode>,
+<React.StrictMode>
+<App pca={msalInstance} />
+
+</React.StrictMode>,
 	document.getElementById('root')
 );
