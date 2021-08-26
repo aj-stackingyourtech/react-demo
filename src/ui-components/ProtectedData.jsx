@@ -17,9 +17,6 @@ import LockOpenIcon from '@material-ui/icons/LockOpen';
 export class ProtectedData extends Component{
 
 
-    constructor(responseData){
-        super(responseData);
-    }
 
     /** renders the component **/
     render(){

@@ -7,9 +7,7 @@ import React, { Component } from "react";
  */
 export class ErrorComponent extends Component {
 
-    constructor(error){
-        super(error);
-    }
+
     render(){
         return <Typography variant="h6">An Error Occurred: {this.error.errorCode}</Typography>;
     }

@@ -9,9 +9,6 @@ import React, { Component } from "react";
  */
 export class PageLayout extends Component{
 
-    constructor(props){
-        super(props);
-    }
 
     /** renders the page **/
     render(){

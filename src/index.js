@@ -13,7 +13,7 @@ import setupLogRocketReact from 'logrocket-react';
 LogRocket.init('jcg6ee/azure-react-demo-dev');
 setupLogRocketReact(LogRocket);
 
-const msalInstance = new PublicClientApplication(msalConfig);
+//const msalInstance = new PublicClientApplication(msalConfig);
 
 
 ReactDOM.render(
