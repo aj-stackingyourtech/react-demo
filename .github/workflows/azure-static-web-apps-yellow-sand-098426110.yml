@@ -57,11 +57,12 @@ jobs:
           uses: crazy-max/ghaction-chocolatey@v1
           with:
             args: install docfx
-        - name: Setup node2docfx
+        - name: Setup Node
           uses: actions/setup-node@v2
           with:
             node-version: '14'
           cache: 'npm'
+        - name: Install node2docfx
           run: npm install node2docfx
         - name: Node2docfx Build
           run: node node_modules/node2docfx/node2docfx.js node2docfx.json
