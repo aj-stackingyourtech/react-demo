@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
@@ -9,15 +9,29 @@ import ScheduleIcon from '@material-ui/icons/Schedule';
 import MailIcon from '@material-ui/icons/Mail';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 
-export const ProtectedData = ({responseData}) => {
+
+/**
+ * @summary Renders information about a specific user, used to demonstrate the ability to show data that only authenticated users can see.
+ * @param {object} [responseData] Information about user, such as account.
+ */
+export class ProtectedData extends Component{
+
+
+    constructor(responseData){
+        super(responseData);
+    }
+
+    /** renders the component **/
+    render(){
     return (
         <List className="protectedData">
-            <NameListItem name={responseData.account.name} />
-            <MailListItem mail={responseData.account.username} />
-            <AccessTokenExpiresListItem expiresOn={responseData.expiresOn} />
-            <ScopesListItem scopes={responseData.scopes} />
+            <NameListItem name={this.responseData.account.name} />
+            <MailListItem mail={this.responseData.account.username} />
+            <AccessTokenExpiresListItem expiresOn={this.responseData.expiresOn} />
+            <ScopesListItem scopes={this.responseData.scopes} />
         </List>
     );
+    }
 };
 
 const NameListItem = ({name}) => (

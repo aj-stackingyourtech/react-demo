@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: Home
+    id: Home
+    name: Home
+    summary: >-
+      Home page component.  Will render either an AuthenticatedTemplate or
+      UnauthenticatedTemplate based on whether the user is logged in.
+    fullName: Home
+    type: Class
+    children:
+      - Home.#ctor
+      - Home#render
+    langs:
+      - js
+  - id: Home.#ctor
+    uid: Home.#ctor
+    parent: Home
+    name: Home()
+    fullName: Home.Home()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new Home()
+    langs:
+      - js
+  - uid: Home#render
+    id: Home#render
+    parent: Home
+    name: render()
+    summary: Renders the page
+    fullName: Home.render()
+    type: Function
+    syntax:
+      content: function render()
+    langs:
+      - js

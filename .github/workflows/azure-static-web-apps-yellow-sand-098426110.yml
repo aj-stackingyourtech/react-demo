@@ -57,8 +57,13 @@ jobs:
           uses: crazy-max/ghaction-chocolatey@v1
           with:
             args: install docfx
+        - name: Setup node2docfx
+          uses: crazy-max/ghaction-chocolatey@v1
+          with:
+            args: install node2docfx
+        - name: Node2docfx Build
+          run: node node_modules/node2docfx/node2docfx.js node2docfx.json
         - name: DocFX Build
-          working-directory: docs
           run: docfx docfx.json
           continue-on-error: false
         - name: Publish

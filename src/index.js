@@ -18,7 +18,7 @@ const msalInstance = new PublicClientApplication(msalConfig);
 
 ReactDOM.render(
 <React.StrictMode>
-<App pca={msalInstance} />
+<App pca={new PublicClientApplication(msalConfig)} />
 
 </React.StrictMode>,
 	document.getElementById('root')

@@ -1,7 +1,20 @@
 import Typography from "@material-ui/core/Typography";
 import NavBar from "./NavBar";
 
-export const PageLayout = (props) => {
+import React, { Component } from "react";
+
+/**
+ * @summary Wrapper class for the entire site
+ * @param {object} [props] The 'children' property of this represents the content of the current page
+ */
+export class PageLayout extends Component{
+
+    constructor(props){
+        super(props);
+    }
+
+    /** renders the page **/
+    render(){
     return (
         <>
             <NavBar />
@@ -10,7 +23,8 @@ export const PageLayout = (props) => {
             </Typography>
             <br/>
             <br/>
-            {props.children}
+            {this.props.children}
         </>
     );
+    }
 };

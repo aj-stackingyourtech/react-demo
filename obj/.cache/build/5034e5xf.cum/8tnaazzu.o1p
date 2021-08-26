@@ -1,0 +1,1 @@
+{"docs/toc.yml":[{"File":"docs/toc.yml","Line":"0","LogLevel":"warning","Message":"Invalid file link:(~/docs/api/index.md).","Phase":"BuildCommand.BuildCore.Build Document.LinkPhaseHandlerWithIncremental.TocDocumentProcessor.Save","Code":"InvalidFileLink"}]}

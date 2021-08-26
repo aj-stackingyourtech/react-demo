@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ErrorComponent
+    id: ErrorComponent
+    name: ErrorComponent
+    summary: Renders an error message
+    fullName: ErrorComponent
+    type: Class
+    children:
+      - ErrorComponent.#ctor
+    langs:
+      - js
+  - id: ErrorComponent.#ctor
+    uid: ErrorComponent.#ctor
+    parent: ErrorComponent
+    name: ErrorComponent(error)
+    fullName: ErrorComponent.ErrorComponent(error)
+    summary: ''
+    type: Constructor
+    syntax:
+      parameters:
+        - id: error
+          type:
+            - object
+          description: Contains key 'errorCode' to provide additional error detail
+          optional: true
+      content: new ErrorComponent(error)
+    langs:
+      - js

@@ -1,0 +1,754 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <a href="Account.html" name="" title="Account">Account</a>
+                </li>
+                <li>
+                    <a href="AccountListPoolNodeCountsNextOptions.html" name="" title="AccountListPoolNodeCountsNextOptions">AccountListPoolNodeCountsNextOptions</a>
+                </li>
+                <li>
+                    <a href="AccountListPoolNodeCountsOptions.html" name="" title="AccountListPoolNodeCountsOptions">AccountListPoolNodeCountsOptions</a>
+                </li>
+                <li>
+                    <a href="AccountListSupportedImagesNextOptions.html" name="" title="AccountListSupportedImagesNextOptions">AccountListSupportedImagesNextOptions</a>
+                </li>
+                <li>
+                    <a href="AccountListSupportedImagesOptions.html" name="" title="AccountListSupportedImagesOptions">AccountListSupportedImagesOptions</a>
+                </li>
+                <li>
+                    <a href="AccountListSupportedImagesResult.html" name="" title="AccountListSupportedImagesResult">AccountListSupportedImagesResult</a>
+                </li>
+                <li>
+                    <a href="AffinityInformation.html" name="" title="AffinityInformation">AffinityInformation</a>
+                </li>
+                <li>
+                    <a href="Application.html" name="" title="Application">Application</a>
+                </li>
+                <li>
+                    <a href="ApplicationGetOptions.html" name="" title="ApplicationGetOptions">ApplicationGetOptions</a>
+                </li>
+                <li>
+                    <a href="ApplicationListNextOptions.html" name="" title="ApplicationListNextOptions">ApplicationListNextOptions</a>
+                </li>
+                <li>
+                    <a href="ApplicationListOptions.html" name="" title="ApplicationListOptions">ApplicationListOptions</a>
+                </li>
+                <li>
+                    <a href="ApplicationListResult.html" name="" title="ApplicationListResult">ApplicationListResult</a>
+                </li>
+                <li>
+                    <a href="ApplicationPackageReference.html" name="" title="ApplicationPackageReference">ApplicationPackageReference</a>
+                </li>
+                <li>
+                    <a href="ApplicationSummary.html" name="" title="ApplicationSummary">ApplicationSummary</a>
+                </li>
+                <li>
+                    <a href="AuthenticationTokenSettings.html" name="" title="AuthenticationTokenSettings">AuthenticationTokenSettings</a>
+                </li>
+                <li>
+                    <a href="AutoPoolSpecification.html" name="" title="AutoPoolSpecification">AutoPoolSpecification</a>
+                </li>
+                <li>
+                    <a href="AutoScaleRun.html" name="" title="AutoScaleRun">AutoScaleRun</a>
+                </li>
+                <li>
+                    <a href="AutoScaleRunError.html" name="" title="AutoScaleRunError">AutoScaleRunError</a>
+                </li>
+                <li>
+                    <a href="AutoUserSpecification.html" name="" title="AutoUserSpecification">AutoUserSpecification</a>
+                </li>
+                <li>
+                    <a href="AzureBlobFileSystemConfiguration.html" name="" title="AzureBlobFileSystemConfiguration">AzureBlobFileSystemConfiguration</a>
+                </li>
+                <li>
+                    <a href="AzureFileShareConfiguration.html" name="" title="AzureFileShareConfiguration">AzureFileShareConfiguration</a>
+                </li>
+                <li>
+                    <a href="BatchError.html" name="" title="BatchError">BatchError</a>
+                </li>
+                <li>
+                    <a href="BatchErrorDetail.html" name="" title="BatchErrorDetail">BatchErrorDetail</a>
+                </li>
+                <li>
+                    <a href="BatchServiceClient.html" name="" title="BatchServiceClient">BatchServiceClient</a>
+                </li>
+                <li>
+                    <a href="BatchSharedKeyCredentials.html" name="" title="BatchSharedKeyCredentials">BatchSharedKeyCredentials</a>
+                </li>
+                <li>
+                    <a href="Certificate.html" name="" title="Certificate">Certificate</a>
+                </li>
+                <li>
+                    <a href="CertificateAddOptions.html" name="" title="CertificateAddOptions">CertificateAddOptions</a>
+                </li>
+                <li>
+                    <a href="CertificateAddParameter.html" name="" title="CertificateAddParameter">CertificateAddParameter</a>
+                </li>
+                <li>
+                    <a href="CertificateCancelDeletionOptions.html" name="" title="CertificateCancelDeletionOptions">CertificateCancelDeletionOptions</a>
+                </li>
+                <li>
+                    <a href="CertificateDeleteMethodOptions.html" name="" title="CertificateDeleteMethodOptions">CertificateDeleteMethodOptions</a>
+                </li>
+                <li>
+                    <a href="CertificateGetOptions.html" name="" title="CertificateGetOptions">CertificateGetOptions</a>
+                </li>
+                <li>
+                    <a href="CertificateListNextOptions.html" name="" title="CertificateListNextOptions">CertificateListNextOptions</a>
+                </li>
+                <li>
+                    <a href="CertificateListOptions.html" name="" title="CertificateListOptions">CertificateListOptions</a>
+                </li>
+                <li>
+                    <a href="CertificateListResult.html" name="" title="CertificateListResult">CertificateListResult</a>
+                </li>
+                <li>
+                    <a href="CertificateOperations.html" name="" title="CertificateOperations">CertificateOperations</a>
+                </li>
+                <li>
+                    <a href="CertificateReference.html" name="" title="CertificateReference">CertificateReference</a>
+                </li>
+                <li>
+                    <a href="CIFSMountConfiguration.html" name="" title="CIFSMountConfiguration">CIFSMountConfiguration</a>
+                </li>
+                <li>
+                    <a href="CloudJob.html" name="" title="CloudJob">CloudJob</a>
+                </li>
+                <li>
+                    <a href="CloudJobListPreparationAndReleaseTaskStatusResult.html" name="" title="CloudJobListPreparationAndReleaseTaskStatusResult">CloudJobListPreparationAndReleaseTaskStatusResult</a>
+                </li>
+                <li>
+                    <a href="CloudJobListResult.html" name="" title="CloudJobListResult">CloudJobListResult</a>
+                </li>
+                <li>
+                    <a href="CloudJobSchedule.html" name="" title="CloudJobSchedule">CloudJobSchedule</a>
+                </li>
+                <li>
+                    <a href="CloudJobScheduleListResult.html" name="" title="CloudJobScheduleListResult">CloudJobScheduleListResult</a>
+                </li>
+                <li>
+                    <a href="CloudPool.html" name="" title="CloudPool">CloudPool</a>
+                </li>
+                <li>
+                    <a href="CloudPoolListResult.html" name="" title="CloudPoolListResult">CloudPoolListResult</a>
+                </li>
+                <li>
+                    <a href="CloudServiceConfiguration.html" name="" title="CloudServiceConfiguration">CloudServiceConfiguration</a>
+                </li>
+                <li>
+                    <a href="CloudTask.html" name="" title="CloudTask">CloudTask</a>
+                </li>
+                <li>
+                    <a href="CloudTaskListResult.html" name="" title="CloudTaskListResult">CloudTaskListResult</a>
+                </li>
+                <li>
+                    <a href="CloudTaskListSubtasksResult.html" name="" title="CloudTaskListSubtasksResult">CloudTaskListSubtasksResult</a>
+                </li>
+                <li>
+                    <a href="ComputeNode.html" name="" title="ComputeNode">ComputeNode</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeAddUserOptions.html" name="" title="ComputeNodeAddUserOptions">ComputeNodeAddUserOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeDeleteUserOptions.html" name="" title="ComputeNodeDeleteUserOptions">ComputeNodeDeleteUserOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeDisableSchedulingOptions.html" name="" title="ComputeNodeDisableSchedulingOptions">ComputeNodeDisableSchedulingOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeEnableSchedulingOptions.html" name="" title="ComputeNodeEnableSchedulingOptions">ComputeNodeEnableSchedulingOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeEndpointConfiguration.html" name="" title="ComputeNodeEndpointConfiguration">ComputeNodeEndpointConfiguration</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeError.html" name="" title="ComputeNodeError">ComputeNodeError</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeGetOptions.html" name="" title="ComputeNodeGetOptions">ComputeNodeGetOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeGetRemoteDesktopOptions.html" name="" title="ComputeNodeGetRemoteDesktopOptions">ComputeNodeGetRemoteDesktopOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeGetRemoteLoginSettingsOptions.html" name="" title="ComputeNodeGetRemoteLoginSettingsOptions">ComputeNodeGetRemoteLoginSettingsOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeGetRemoteLoginSettingsResult.html" name="" title="ComputeNodeGetRemoteLoginSettingsResult">ComputeNodeGetRemoteLoginSettingsResult</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeInformation.html" name="" title="ComputeNodeInformation">ComputeNodeInformation</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeListNextOptions.html" name="" title="ComputeNodeListNextOptions">ComputeNodeListNextOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeListOptions.html" name="" title="ComputeNodeListOptions">ComputeNodeListOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeListResult.html" name="" title="ComputeNodeListResult">ComputeNodeListResult</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeOperations.html" name="" title="ComputeNodeOperations">ComputeNodeOperations</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeRebootOptions.html" name="" title="ComputeNodeRebootOptions">ComputeNodeRebootOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeReimageOptions.html" name="" title="ComputeNodeReimageOptions">ComputeNodeReimageOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeUpdateUserOptions.html" name="" title="ComputeNodeUpdateUserOptions">ComputeNodeUpdateUserOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeUploadBatchServiceLogsOptions.html" name="" title="ComputeNodeUploadBatchServiceLogsOptions">ComputeNodeUploadBatchServiceLogsOptions</a>
+                </li>
+                <li>
+                    <a href="ComputeNodeUser.html" name="" title="ComputeNodeUser">ComputeNodeUser</a>
+                </li>
+                <li>
+                    <a href="ContainerConfiguration.html" name="" title="ContainerConfiguration">ContainerConfiguration</a>
+                </li>
+                <li>
+                    <a href="ContainerRegistry.html" name="" title="ContainerRegistry">ContainerRegistry</a>
+                </li>
+                <li>
+                    <a href="DataDisk.html" name="" title="DataDisk">DataDisk</a>
+                </li>
+                <li>
+                    <a href="DeleteCertificateError.html" name="" title="DeleteCertificateError">DeleteCertificateError</a>
+                </li>
+                <li>
+                    <a href="DiskEncryptionConfiguration.html" name="" title="DiskEncryptionConfiguration">DiskEncryptionConfiguration</a>
+                </li>
+                <li>
+                    <a href="EnvironmentSetting.html" name="" title="EnvironmentSetting">EnvironmentSetting</a>
+                </li>
+                <li>
+                    <a href="ErrorMessage.html" name="" title="ErrorMessage">ErrorMessage</a>
+                </li>
+                <li>
+                    <a href="ExitCodeMapping.html" name="" title="ExitCodeMapping">ExitCodeMapping</a>
+                </li>
+                <li>
+                    <a href="ExitCodeRangeMapping.html" name="" title="ExitCodeRangeMapping">ExitCodeRangeMapping</a>
+                </li>
+                <li>
+                    <a href="ExitConditions.html" name="" title="ExitConditions">ExitConditions</a>
+                </li>
+                <li>
+                    <a href="ExitOptions.html" name="" title="ExitOptions">ExitOptions</a>
+                </li>
+                <li>
+                    <a href="File.html" name="" title="File">File</a>
+                </li>
+                <li>
+                    <a href="FileDeleteFromComputeNodeOptions.html" name="" title="FileDeleteFromComputeNodeOptions">FileDeleteFromComputeNodeOptions</a>
+                </li>
+                <li>
+                    <a href="FileDeleteFromTaskOptions.html" name="" title="FileDeleteFromTaskOptions">FileDeleteFromTaskOptions</a>
+                </li>
+                <li>
+                    <a href="FileGetFromComputeNodeOptions.html" name="" title="FileGetFromComputeNodeOptions">FileGetFromComputeNodeOptions</a>
+                </li>
+                <li>
+                    <a href="FileGetFromTaskOptions.html" name="" title="FileGetFromTaskOptions">FileGetFromTaskOptions</a>
+                </li>
+                <li>
+                    <a href="FileGetPropertiesFromComputeNodeOptions.html" name="" title="FileGetPropertiesFromComputeNodeOptions">FileGetPropertiesFromComputeNodeOptions</a>
+                </li>
+                <li>
+                    <a href="FileGetPropertiesFromTaskOptions.html" name="" title="FileGetPropertiesFromTaskOptions">FileGetPropertiesFromTaskOptions</a>
+                </li>
+                <li>
+                    <a href="FileListFromComputeNodeNextOptions.html" name="" title="FileListFromComputeNodeNextOptions">FileListFromComputeNodeNextOptions</a>
+                </li>
+                <li>
+                    <a href="FileListFromComputeNodeOptions.html" name="" title="FileListFromComputeNodeOptions">FileListFromComputeNodeOptions</a>
+                </li>
+                <li>
+                    <a href="FileListFromTaskNextOptions.html" name="" title="FileListFromTaskNextOptions">FileListFromTaskNextOptions</a>
+                </li>
+                <li>
+                    <a href="FileListFromTaskOptions.html" name="" title="FileListFromTaskOptions">FileListFromTaskOptions</a>
+                </li>
+                <li>
+                    <a href="FileProperties.html" name="" title="FileProperties">FileProperties</a>
+                </li>
+                <li>
+                    <a href="HmacSha256Sign.html" name="" title="HmacSha256Sign">HmacSha256Sign</a>
+                </li>
+                <li>
+                    <a href="ImageInformation.html" name="" title="ImageInformation">ImageInformation</a>
+                </li>
+                <li>
+                    <a href="ImageReference.html" name="" title="ImageReference">ImageReference</a>
+                </li>
+                <li>
+                    <a href="InboundEndpoint.html" name="" title="InboundEndpoint">InboundEndpoint</a>
+                </li>
+                <li>
+                    <a href="InboundNATPool.html" name="" title="InboundNATPool">InboundNATPool</a>
+                </li>
+                <li>
+                    <a href="Job.html" name="" title="Job">Job</a>
+                </li>
+                <li>
+                    <a href="JobAddOptions.html" name="" title="JobAddOptions">JobAddOptions</a>
+                </li>
+                <li>
+                    <a href="JobAddParameter.html" name="" title="JobAddParameter">JobAddParameter</a>
+                </li>
+                <li>
+                    <a href="JobConstraints.html" name="" title="JobConstraints">JobConstraints</a>
+                </li>
+                <li>
+                    <a href="JobDeleteMethodOptions.html" name="" title="JobDeleteMethodOptions">JobDeleteMethodOptions</a>
+                </li>
+                <li>
+                    <a href="JobDisableOptions.html" name="" title="JobDisableOptions">JobDisableOptions</a>
+                </li>
+                <li>
+                    <a href="JobDisableParameter.html" name="" title="JobDisableParameter">JobDisableParameter</a>
+                </li>
+                <li>
+                    <a href="JobEnableOptions.html" name="" title="JobEnableOptions">JobEnableOptions</a>
+                </li>
+                <li>
+                    <a href="JobExecutionInformation.html" name="" title="JobExecutionInformation">JobExecutionInformation</a>
+                </li>
+                <li>
+                    <a href="JobGetAllLifetimeStatisticsOptions.html" name="" title="JobGetAllLifetimeStatisticsOptions">JobGetAllLifetimeStatisticsOptions</a>
+                </li>
+                <li>
+                    <a href="JobGetOptions.html" name="" title="JobGetOptions">JobGetOptions</a>
+                </li>
+                <li>
+                    <a href="JobGetTaskCountsOptions.html" name="" title="JobGetTaskCountsOptions">JobGetTaskCountsOptions</a>
+                </li>
+                <li>
+                    <a href="JobListFromJobScheduleNextOptions.html" name="" title="JobListFromJobScheduleNextOptions">JobListFromJobScheduleNextOptions</a>
+                </li>
+                <li>
+                    <a href="JobListFromJobScheduleOptions.html" name="" title="JobListFromJobScheduleOptions">JobListFromJobScheduleOptions</a>
+                </li>
+                <li>
+                    <a href="JobListNextOptions.html" name="" title="JobListNextOptions">JobListNextOptions</a>
+                </li>
+                <li>
+                    <a href="JobListOptions.html" name="" title="JobListOptions">JobListOptions</a>
+                </li>
+                <li>
+                    <a href="JobListPreparationAndReleaseTaskStatusNextOptions.html" name="" title="JobListPreparationAndReleaseTaskStatusNextOptions">JobListPreparationAndReleaseTaskStatusNextOptions</a>
+                </li>
+                <li>
+                    <a href="JobListPreparationAndReleaseTaskStatusOptions.html" name="" title="JobListPreparationAndReleaseTaskStatusOptions">JobListPreparationAndReleaseTaskStatusOptions</a>
+                </li>
+                <li>
+                    <a href="JobManagerTask.html" name="" title="JobManagerTask">JobManagerTask</a>
+                </li>
+                <li>
+                    <a href="JobNetworkConfiguration.html" name="" title="JobNetworkConfiguration">JobNetworkConfiguration</a>
+                </li>
+                <li>
+                    <a href="JobPatchOptions.html" name="" title="JobPatchOptions">JobPatchOptions</a>
+                </li>
+                <li>
+                    <a href="JobPatchParameter.html" name="" title="JobPatchParameter">JobPatchParameter</a>
+                </li>
+                <li>
+                    <a href="JobPreparationAndReleaseTaskExecutionInformation.html" name="" title="JobPreparationAndReleaseTaskExecutionInformation">JobPreparationAndReleaseTaskExecutionInformation</a>
+                </li>
+                <li>
+                    <a href="JobPreparationTask.html" name="" title="JobPreparationTask">JobPreparationTask</a>
+                </li>
+                <li>
+                    <a href="JobPreparationTaskExecutionInformation.html" name="" title="JobPreparationTaskExecutionInformation">JobPreparationTaskExecutionInformation</a>
+                </li>
+                <li>
+                    <a href="JobReleaseTask.html" name="" title="JobReleaseTask">JobReleaseTask</a>
+                </li>
+                <li>
+                    <a href="JobReleaseTaskExecutionInformation.html" name="" title="JobReleaseTaskExecutionInformation">JobReleaseTaskExecutionInformation</a>
+                </li>
+                <li>
+                    <a href="JobSchedule.html" name="" title="JobSchedule">JobSchedule</a>
+                </li>
+                <li>
+                    <a href="JobScheduleAddOptions.html" name="" title="JobScheduleAddOptions">JobScheduleAddOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleAddParameter.html" name="" title="JobScheduleAddParameter">JobScheduleAddParameter</a>
+                </li>
+                <li>
+                    <a href="JobScheduleDeleteMethodOptions.html" name="" title="JobScheduleDeleteMethodOptions">JobScheduleDeleteMethodOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleDisableOptions.html" name="" title="JobScheduleDisableOptions">JobScheduleDisableOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleEnableOptions.html" name="" title="JobScheduleEnableOptions">JobScheduleEnableOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleExecutionInformation.html" name="" title="JobScheduleExecutionInformation">JobScheduleExecutionInformation</a>
+                </li>
+                <li>
+                    <a href="JobScheduleExistsOptions.html" name="" title="JobScheduleExistsOptions">JobScheduleExistsOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleGetOptions.html" name="" title="JobScheduleGetOptions">JobScheduleGetOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleListNextOptions.html" name="" title="JobScheduleListNextOptions">JobScheduleListNextOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleListOptions.html" name="" title="JobScheduleListOptions">JobScheduleListOptions</a>
+                </li>
+                <li>
+                    <a href="JobSchedulePatchOptions.html" name="" title="JobSchedulePatchOptions">JobSchedulePatchOptions</a>
+                </li>
+                <li>
+                    <a href="JobSchedulePatchParameter.html" name="" title="JobSchedulePatchParameter">JobSchedulePatchParameter</a>
+                </li>
+                <li>
+                    <a href="JobScheduleStatistics.html" name="" title="JobScheduleStatistics">JobScheduleStatistics</a>
+                </li>
+                <li>
+                    <a href="JobScheduleTerminateOptions.html" name="" title="JobScheduleTerminateOptions">JobScheduleTerminateOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleUpdateOptions.html" name="" title="JobScheduleUpdateOptions">JobScheduleUpdateOptions</a>
+                </li>
+                <li>
+                    <a href="JobScheduleUpdateParameter.html" name="" title="JobScheduleUpdateParameter">JobScheduleUpdateParameter</a>
+                </li>
+                <li>
+                    <a href="JobSchedulingError.html" name="" title="JobSchedulingError">JobSchedulingError</a>
+                </li>
+                <li>
+                    <a href="JobSpecification.html" name="" title="JobSpecification">JobSpecification</a>
+                </li>
+                <li>
+                    <a href="JobStatistics.html" name="" title="JobStatistics">JobStatistics</a>
+                </li>
+                <li>
+                    <a href="JobTerminateOptions.html" name="" title="JobTerminateOptions">JobTerminateOptions</a>
+                </li>
+                <li>
+                    <a href="JobTerminateParameter.html" name="" title="JobTerminateParameter">JobTerminateParameter</a>
+                </li>
+                <li>
+                    <a href="JobUpdateOptions.html" name="" title="JobUpdateOptions">JobUpdateOptions</a>
+                </li>
+                <li>
+                    <a href="JobUpdateParameter.html" name="" title="JobUpdateParameter">JobUpdateParameter</a>
+                </li>
+                <li>
+                    <a href="LinuxUserConfiguration.html" name="" title="LinuxUserConfiguration">LinuxUserConfiguration</a>
+                </li>
+                <li>
+                    <a href="MetadataItem.html" name="" title="MetadataItem">MetadataItem</a>
+                </li>
+                <li>
+                    <a href="MountConfiguration.html" name="" title="MountConfiguration">MountConfiguration</a>
+                </li>
+                <li>
+                    <a href="MultiInstanceSettings.html" name="" title="MultiInstanceSettings">MultiInstanceSettings</a>
+                </li>
+                <li>
+                    <a href="NameValuePair.html" name="" title="NameValuePair">NameValuePair</a>
+                </li>
+                <li>
+                    <a href="NetworkConfiguration.html" name="" title="NetworkConfiguration">NetworkConfiguration</a>
+                </li>
+                <li>
+                    <a href="NetworkSecurityGroupRule.html" name="" title="NetworkSecurityGroupRule">NetworkSecurityGroupRule</a>
+                </li>
+                <li>
+                    <a href="NFSMountConfiguration.html" name="" title="NFSMountConfiguration">NFSMountConfiguration</a>
+                </li>
+                <li>
+                    <a href="NodeAgentInformation.html" name="" title="NodeAgentInformation">NodeAgentInformation</a>
+                </li>
+                <li>
+                    <a href="NodeCounts.html" name="" title="NodeCounts">NodeCounts</a>
+                </li>
+                <li>
+                    <a href="NodeDisableSchedulingParameter.html" name="" title="NodeDisableSchedulingParameter">NodeDisableSchedulingParameter</a>
+                </li>
+                <li>
+                    <a href="NodeFile.html" name="" title="NodeFile">NodeFile</a>
+                </li>
+                <li>
+                    <a href="NodeFileListResult.html" name="" title="NodeFileListResult">NodeFileListResult</a>
+                </li>
+                <li>
+                    <a href="NodeRebootParameter.html" name="" title="NodeRebootParameter">NodeRebootParameter</a>
+                </li>
+                <li>
+                    <a href="NodeReimageParameter.html" name="" title="NodeReimageParameter">NodeReimageParameter</a>
+                </li>
+                <li>
+                    <a href="NodeRemoveParameter.html" name="" title="NodeRemoveParameter">NodeRemoveParameter</a>
+                </li>
+                <li>
+                    <a href="NodeUpdateUserParameter.html" name="" title="NodeUpdateUserParameter">NodeUpdateUserParameter</a>
+                </li>
+                <li>
+                    <a href="OutputFile.html" name="" title="OutputFile">OutputFile</a>
+                </li>
+                <li>
+                    <a href="OutputFileBlobContainerDestination.html" name="" title="OutputFileBlobContainerDestination">OutputFileBlobContainerDestination</a>
+                </li>
+                <li>
+                    <a href="OutputFileDestination.html" name="" title="OutputFileDestination">OutputFileDestination</a>
+                </li>
+                <li>
+                    <a href="OutputFileUploadOptions.html" name="" title="OutputFileUploadOptions">OutputFileUploadOptions</a>
+                </li>
+                <li>
+                    <a href="Pool.html" name="" title="Pool">Pool</a>
+                </li>
+                <li>
+                    <a href="PoolAddOptions.html" name="" title="PoolAddOptions">PoolAddOptions</a>
+                </li>
+                <li>
+                    <a href="PoolAddParameter.html" name="" title="PoolAddParameter">PoolAddParameter</a>
+                </li>
+                <li>
+                    <a href="PoolDeleteMethodOptions.html" name="" title="PoolDeleteMethodOptions">PoolDeleteMethodOptions</a>
+                </li>
+                <li>
+                    <a href="PoolDisableAutoScaleOptions.html" name="" title="PoolDisableAutoScaleOptions">PoolDisableAutoScaleOptions</a>
+                </li>
+                <li>
+                    <a href="PoolEnableAutoScaleOptions.html" name="" title="PoolEnableAutoScaleOptions">PoolEnableAutoScaleOptions</a>
+                </li>
+                <li>
+                    <a href="PoolEnableAutoScaleParameter.html" name="" title="PoolEnableAutoScaleParameter">PoolEnableAutoScaleParameter</a>
+                </li>
+                <li>
+                    <a href="PoolEndpointConfiguration.html" name="" title="PoolEndpointConfiguration">PoolEndpointConfiguration</a>
+                </li>
+                <li>
+                    <a href="PoolEvaluateAutoScaleOptions.html" name="" title="PoolEvaluateAutoScaleOptions">PoolEvaluateAutoScaleOptions</a>
+                </li>
+                <li>
+                    <a href="PoolEvaluateAutoScaleParameter.html" name="" title="PoolEvaluateAutoScaleParameter">PoolEvaluateAutoScaleParameter</a>
+                </li>
+                <li>
+                    <a href="PoolExistsOptions.html" name="" title="PoolExistsOptions">PoolExistsOptions</a>
+                </li>
+                <li>
+                    <a href="PoolGetAllLifetimeStatisticsOptions.html" name="" title="PoolGetAllLifetimeStatisticsOptions">PoolGetAllLifetimeStatisticsOptions</a>
+                </li>
+                <li>
+                    <a href="PoolGetOptions.html" name="" title="PoolGetOptions">PoolGetOptions</a>
+                </li>
+                <li>
+                    <a href="PoolInformation.html" name="" title="PoolInformation">PoolInformation</a>
+                </li>
+                <li>
+                    <a href="PoolListNextOptions.html" name="" title="PoolListNextOptions">PoolListNextOptions</a>
+                </li>
+                <li>
+                    <a href="PoolListOptions.html" name="" title="PoolListOptions">PoolListOptions</a>
+                </li>
+                <li>
+                    <a href="PoolListUsageMetricsNextOptions.html" name="" title="PoolListUsageMetricsNextOptions">PoolListUsageMetricsNextOptions</a>
+                </li>
+                <li>
+                    <a href="PoolListUsageMetricsOptions.html" name="" title="PoolListUsageMetricsOptions">PoolListUsageMetricsOptions</a>
+                </li>
+                <li>
+                    <a href="PoolListUsageMetricsResult.html" name="" title="PoolListUsageMetricsResult">PoolListUsageMetricsResult</a>
+                </li>
+                <li>
+                    <a href="PoolNodeCounts.html" name="" title="PoolNodeCounts">PoolNodeCounts</a>
+                </li>
+                <li>
+                    <a href="PoolNodeCountsListResult.html" name="" title="PoolNodeCountsListResult">PoolNodeCountsListResult</a>
+                </li>
+                <li>
+                    <a href="PoolPatchOptions.html" name="" title="PoolPatchOptions">PoolPatchOptions</a>
+                </li>
+                <li>
+                    <a href="PoolPatchParameter.html" name="" title="PoolPatchParameter">PoolPatchParameter</a>
+                </li>
+                <li>
+                    <a href="PoolRemoveNodesOptions.html" name="" title="PoolRemoveNodesOptions">PoolRemoveNodesOptions</a>
+                </li>
+                <li>
+                    <a href="PoolResizeOptions.html" name="" title="PoolResizeOptions">PoolResizeOptions</a>
+                </li>
+                <li>
+                    <a href="PoolResizeParameter.html" name="" title="PoolResizeParameter">PoolResizeParameter</a>
+                </li>
+                <li>
+                    <a href="PoolSpecification.html" name="" title="PoolSpecification">PoolSpecification</a>
+                </li>
+                <li>
+                    <a href="PoolStatistics.html" name="" title="PoolStatistics">PoolStatistics</a>
+                </li>
+                <li>
+                    <a href="PoolStopResizeOptions.html" name="" title="PoolStopResizeOptions">PoolStopResizeOptions</a>
+                </li>
+                <li>
+                    <a href="PoolUpdatePropertiesOptions.html" name="" title="PoolUpdatePropertiesOptions">PoolUpdatePropertiesOptions</a>
+                </li>
+                <li>
+                    <a href="PoolUpdatePropertiesParameter.html" name="" title="PoolUpdatePropertiesParameter">PoolUpdatePropertiesParameter</a>
+                </li>
+                <li>
+                    <a href="PoolUsageMetrics.html" name="" title="PoolUsageMetrics">PoolUsageMetrics</a>
+                </li>
+                <li>
+                    <a href="PublicIPAddressConfiguration.html" name="" title="PublicIPAddressConfiguration">PublicIPAddressConfiguration</a>
+                </li>
+                <li>
+                    <a href="RecentJob.html" name="" title="RecentJob">RecentJob</a>
+                </li>
+                <li>
+                    <a href="ResizeError.html" name="" title="ResizeError">ResizeError</a>
+                </li>
+                <li>
+                    <a href="ResourceFile.html" name="" title="ResourceFile">ResourceFile</a>
+                </li>
+                <li>
+                    <a href="ResourceStatistics.html" name="" title="ResourceStatistics">ResourceStatistics</a>
+                </li>
+                <li>
+                    <a href="Schedule.html" name="" title="Schedule">Schedule</a>
+                </li>
+                <li>
+                    <a href="StartTask.html" name="" title="StartTask">StartTask</a>
+                </li>
+                <li>
+                    <a href="StartTaskInformation.html" name="" title="StartTaskInformation">StartTaskInformation</a>
+                </li>
+                <li>
+                    <a href="SubtaskInformation.html" name="" title="SubtaskInformation">SubtaskInformation</a>
+                </li>
+                <li>
+                    <a href="Task.html" name="" title="Task">Task</a>
+                </li>
+                <li>
+                    <a href="TaskAddCollectionOptions.html" name="" title="TaskAddCollectionOptions">TaskAddCollectionOptions</a>
+                </li>
+                <li>
+                    <a href="TaskAddCollectionParameter.html" name="" title="TaskAddCollectionParameter">TaskAddCollectionParameter</a>
+                </li>
+                <li>
+                    <a href="TaskAddCollectionResult.html" name="" title="TaskAddCollectionResult">TaskAddCollectionResult</a>
+                </li>
+                <li>
+                    <a href="TaskAddOptions.html" name="" title="TaskAddOptions">TaskAddOptions</a>
+                </li>
+                <li>
+                    <a href="TaskAddParameter.html" name="" title="TaskAddParameter">TaskAddParameter</a>
+                </li>
+                <li>
+                    <a href="TaskAddResult.html" name="" title="TaskAddResult">TaskAddResult</a>
+                </li>
+                <li>
+                    <a href="TaskConstraints.html" name="" title="TaskConstraints">TaskConstraints</a>
+                </li>
+                <li>
+                    <a href="TaskContainerExecutionInformation.html" name="" title="TaskContainerExecutionInformation">TaskContainerExecutionInformation</a>
+                </li>
+                <li>
+                    <a href="TaskContainerSettings.html" name="" title="TaskContainerSettings">TaskContainerSettings</a>
+                </li>
+                <li>
+                    <a href="TaskCounts.html" name="" title="TaskCounts">TaskCounts</a>
+                </li>
+                <li>
+                    <a href="TaskDeleteMethodOptions.html" name="" title="TaskDeleteMethodOptions">TaskDeleteMethodOptions</a>
+                </li>
+                <li>
+                    <a href="TaskDependencies.html" name="" title="TaskDependencies">TaskDependencies</a>
+                </li>
+                <li>
+                    <a href="TaskExecutionInformation.html" name="" title="TaskExecutionInformation">TaskExecutionInformation</a>
+                </li>
+                <li>
+                    <a href="TaskFailureInformation.html" name="" title="TaskFailureInformation">TaskFailureInformation</a>
+                </li>
+                <li>
+                    <a href="TaskGetOptions.html" name="" title="TaskGetOptions">TaskGetOptions</a>
+                </li>
+                <li>
+                    <a href="TaskIdRange.html" name="" title="TaskIdRange">TaskIdRange</a>
+                </li>
+                <li>
+                    <a href="TaskInformation.html" name="" title="TaskInformation">TaskInformation</a>
+                </li>
+                <li>
+                    <a href="TaskListNextOptions.html" name="" title="TaskListNextOptions">TaskListNextOptions</a>
+                </li>
+                <li>
+                    <a href="TaskListOptions.html" name="" title="TaskListOptions">TaskListOptions</a>
+                </li>
+                <li>
+                    <a href="TaskListSubtasksOptions.html" name="" title="TaskListSubtasksOptions">TaskListSubtasksOptions</a>
+                </li>
+                <li>
+                    <a href="TaskReactivateOptions.html" name="" title="TaskReactivateOptions">TaskReactivateOptions</a>
+                </li>
+                <li>
+                    <a href="TaskSchedulingPolicy.html" name="" title="TaskSchedulingPolicy">TaskSchedulingPolicy</a>
+                </li>
+                <li>
+                    <a href="TaskStatistics.html" name="" title="TaskStatistics">TaskStatistics</a>
+                </li>
+                <li>
+                    <a href="TaskTerminateOptions.html" name="" title="TaskTerminateOptions">TaskTerminateOptions</a>
+                </li>
+                <li>
+                    <a href="TaskUpdateOptions.html" name="" title="TaskUpdateOptions">TaskUpdateOptions</a>
+                </li>
+                <li>
+                    <a href="TaskUpdateParameter.html" name="" title="TaskUpdateParameter">TaskUpdateParameter</a>
+                </li>
+                <li>
+                    <a href="UploadBatchServiceLogsConfiguration.html" name="" title="UploadBatchServiceLogsConfiguration">UploadBatchServiceLogsConfiguration</a>
+                </li>
+                <li>
+                    <a href="UploadBatchServiceLogsResult.html" name="" title="UploadBatchServiceLogsResult">UploadBatchServiceLogsResult</a>
+                </li>
+                <li>
+                    <a href="UsageStatistics.html" name="" title="UsageStatistics">UsageStatistics</a>
+                </li>
+                <li>
+                    <a href="UserAccount.html" name="" title="UserAccount">UserAccount</a>
+                </li>
+                <li>
+                    <a href="UserIdentity.html" name="" title="UserIdentity">UserIdentity</a>
+                </li>
+                <li>
+                    <a href="VirtualMachineConfiguration.html" name="" title="VirtualMachineConfiguration">VirtualMachineConfiguration</a>
+                </li>
+                <li>
+                    <a href="WindowsConfiguration.html" name="" title="WindowsConfiguration">WindowsConfiguration</a>
+                </li>
+                <li>
+                    <a href="WindowsUserConfiguration.html" name="" title="WindowsUserConfiguration">WindowsUserConfiguration</a>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: PageLayout
+    id: PageLayout
+    name: PageLayout
+    summary: Wrapper class for the entire site
+    fullName: PageLayout
+    type: Class
+    children:
+      - PageLayout.#ctor
+      - PageLayout#render
+    langs:
+      - js
+  - id: PageLayout.#ctor
+    uid: PageLayout.#ctor
+    parent: PageLayout
+    name: PageLayout(props)
+    fullName: PageLayout.PageLayout(props)
+    summary: ''
+    type: Constructor
+    syntax:
+      parameters:
+        - id: props
+          type:
+            - object
+          description: >-
+            The 'children' property of this represents the content of the
+            current page
+          optional: true
+      content: new PageLayout(props)
+    langs:
+      - js
+  - uid: PageLayout#render
+    id: PageLayout#render
+    parent: PageLayout
+    name: render()
+    summary: renders the page
+    fullName: PageLayout.render()
+    type: Function
+    syntax:
+      content: function render()
+    langs:
+      - js

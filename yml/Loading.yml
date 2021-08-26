@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: Loading
+    id: Loading
+    name: Loading
+    summary: Displays feedback to user that the authentication process is loading
+    fullName: Loading
+    type: Class
+    children:
+      - Loading.#ctor
+      - Loading#render
+    langs:
+      - js
+  - id: Loading.#ctor
+    uid: Loading.#ctor
+    parent: Loading
+    name: Loading()
+    fullName: Loading.Loading()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new Loading()
+    langs:
+      - js
+  - uid: Loading#render
+    id: Loading#render
+    parent: Loading
+    name: render()
+    summary: Renders the component
+    fullName: Loading.render()
+    type: Function
+    syntax:
+      content: function render()
+    langs:
+      - js
