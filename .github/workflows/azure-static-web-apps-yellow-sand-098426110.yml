@@ -73,5 +73,5 @@ jobs:
           uses: peaceiris/actions-gh-pages@v3
           with:
             github_token: ${{ secrets.GH_PAT }}
-            publish_dir: docs/_site
+            publish_dir: docs
             force_orphan: true
