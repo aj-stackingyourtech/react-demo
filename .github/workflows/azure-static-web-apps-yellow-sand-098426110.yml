@@ -67,7 +67,7 @@ jobs:
           run: node node_modules/node2docfx/node2docfx.js node2docfx.json
         - name: DocFX Build
           run: docfx docfx.json
-          continue-on-error: false
+          continue-on-error: true
         - name: Publish
           if: github.event_name == 'push'
           uses: peaceiris/actions-gh-pages@v3
