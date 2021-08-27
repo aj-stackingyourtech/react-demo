@@ -2,6 +2,7 @@
 
 ## About this sample
 
+
 This developer sample is used to run basic B2C use cases for the MSAL library. You can also alter the configuration in `./src/authConfig.js` to execute other behaviors.
 This sample was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
