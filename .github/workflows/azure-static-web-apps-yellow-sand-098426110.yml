@@ -57,7 +57,7 @@ jobs:
            node-version: '16'
       - name: Run Chrome e2e Tests
         id: chromee2e
-        run: npm run e2e-test      
+        run: npm install && npm run e2e-test      
 
 
   close_pull_request_job:
