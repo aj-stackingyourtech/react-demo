@@ -26,7 +26,8 @@
     "build": "react-scripts build",
     "build:package": "cd ../../../lib/msal-react && npm run build:all",
     "install:local": "npm install ../../../lib/msal-react ../../../lib/msal-browser ../../../lib/msal-react/node_modules/react ../../../lib/msal-react/node_modules/react-dom",
-    "install:published": "npm install @azure/msal-react@latest @azure/msal-browser@latest react@^17 react-dom@^17"
+    "install:published": "npm install @azure/msal-react@latest @azure/msal-browser@latest react@^17 react-dom@^17",
+    "e2e-test": "node src/test/e2e/login.test.js"
   },
   "eslintConfig": {
     "extends": [
