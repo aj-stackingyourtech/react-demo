@@ -32,6 +32,34 @@ jobs:
           output_location: "" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
 
+  run_e2e_tests_job:
+    name: Run e2e Tests
+    needs: build_and_deploy_job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Install Chrome
+        id: installchrome
+        uses: browser-actions/setup-chrome@latest
+        with:
+          chrome-version: stable
+      - name: Install Chrome Webdriver
+        run: |
+          curl https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_linux64.zip -o $GITHUB_WORKSPACE/chromedriver_linux64.zip
+          unzip $GITHUB_WORKSPACE/chromedriver_linux64.zip
+          export PATH=$PATH:$GITHUB_WORKSPACE     
+      - name: Install node
+        id: setupnodev16
+        uses: actions/setup-node@v2
+        with:
+           node-version: '16'
+      - name: Run Chrome e2e Tests
+        id: chromee2e
+        run: npm run e2e-test      
+
+
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest

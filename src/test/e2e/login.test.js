@@ -13,3 +13,4 @@ chromeDriver.navigate().to(`https://yellow-sand-098426110.azurestaticapps.net`)
     .then(() => chromeDriver.wait(webdriver.until.elementLocated(webdriver.By.css(`h6`))))
     .then(() => chromeDriver.findElement(webdriver.By.css(`h6`)).getText())
     .then(text => expect(text).to.equal(`Welcome, A.J.`))
+    .then(() => chromeDriver.quit());
