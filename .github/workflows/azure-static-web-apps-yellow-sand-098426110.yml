@@ -75,6 +75,11 @@ jobs:
       - name: Run XState Create Visual
         id: xtatecreateviz
         run: npm install && npm run xstate-create
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: 'Commit/push xstate visual'
+          push: true
+
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
