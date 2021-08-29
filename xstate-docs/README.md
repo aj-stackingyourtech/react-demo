@@ -16,3 +16,6 @@ Running the following command to create a .svg file
 
 > npm run xstate-create
 
+## Github Actions
+
+The xstate visual will be automatically created and placed in the xstate-docs directory
