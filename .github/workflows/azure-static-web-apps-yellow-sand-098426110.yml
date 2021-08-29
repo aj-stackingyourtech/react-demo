@@ -59,6 +59,22 @@ jobs:
         id: chromee2e
         run: npm install && npm run e2e-test      
 
+  run_xstate_create_job:
+    name: Run XState Create Visual
+    needs: build_and_deploy_job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Install node
+        id: setupnodev16
+        uses: actions/setup-node@v2
+        with:
+           node-version: '16'
+      - name: Run XState Create Visual
+        id: xtatecreateviz
+        run: npm install && npm run xstate-create
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
