@@ -47,7 +47,7 @@ jobs:
           chrome-version: stable
       - name: Install Chrome Webdriver
         run: |
-          curl https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_linux64.zip -o $GITHUB_WORKSPACE/chromedriver_linux64.zip
+          curl https://chromedriver.storage.googleapis.com/92.0.4515.43/chromedriver_linux64.zip -o $GITHUB_WORKSPACE/chromedriver_linux64.zip
           unzip $GITHUB_WORKSPACE/chromedriver_linux64.zip
           export PATH=$PATH:$GITHUB_WORKSPACE     
       - name: Install node
