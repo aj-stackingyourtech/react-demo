@@ -1,6 +1,11 @@
 const webdriver = require('selenium-webdriver');
-const { expect } = require('chai')
-const chromeDriver = new webdriver.Builder().forBrowser('chrome').build();
+const chrome = require('selenium-webdriver/chrome');
+const { expect } = require('chai');
+
+const options = new chrome.Options();
+options.addArguments('headless','disable-gpu');
+
+const chromeDriver = new webdriver.Builder().forBrowser('chrome').setChromeOptions(options).build();
 
 chromeDriver.navigate().to(`https://yellow-sand-098426110.azurestaticapps.net`)
     .then(() => chromeDriver.findElement(webdriver.By.className(`MuiButtonBase-root`)).click())
