@@ -22,7 +22,7 @@ jobs:
           commit-message: Latest version ready to QA
           title: Custom title
           body: Please review https://yellow-sand-098426110.azurestaticapps.net/
-          branch: main
+          branch: qa-testing
           assignees: aj-stackingyourtech
           reviewers: aj-stackingyourtech
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
