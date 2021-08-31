@@ -10,7 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          ref: main
+      - name: Reset promotion branch
+        run: |
+          git fetch origin qa:qa
+          git reset --hard qa
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
