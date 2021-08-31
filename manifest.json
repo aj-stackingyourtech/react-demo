@@ -1,0 +1,147 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/react-demo/react-demo",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/App.html",
+          "hash": "AfZXXlEEP6ve+tnNc1CU5JEpKdZp334fIRKSzy4r1lA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/ErrorComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ErrorComponent.html",
+          "hash": "teegGKrxXhGcVFScPJOd5uXqcXQ2rgJUeKuUJtTiDjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/Home.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Home.html",
+          "hash": "Jc9ZikBcp3HSQ+hCnyG2Wg0y925TQEHxQpN05XZkWpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/Loading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Loading.html",
+          "hash": "hLKNn6X9jXC4mHqLvTFgv6RZvd6PBZZQseQ+pA1na9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/PageLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PageLayout.html",
+          "hash": "IA4qfCXs1j/IMCmPT2vDC0CKpVvhMbbPPveRnRQojiQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pages.html",
+          "hash": "sIlKM71vjZ9Jzj3cVg3SQmRBgHgjzj/P9LYZgqtWN28="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/ProtectedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProtectedData.html",
+          "hash": "sUr1C9X56vMU7/euoat2PPs+2ylHTd8GX/HLDuOPryU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "yml/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "HHqtDFM7J7bC9jeKqLYNRdyf4MEcuTQNkFvmwS0tsWk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "UniversalReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor UniversalReferenceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
