@@ -23,6 +23,6 @@ jobs:
           title: Custom title
           body: Please review https://yellow-sand-098426110.azurestaticapps.net/
           branch: qa-testing
-          assignees: aj-stackingyourtech
-          reviewers: aj-stackingyourtech
+          assignees: aj-lawrence-13delta
+          reviewers: aj-lawrence-13delta
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
