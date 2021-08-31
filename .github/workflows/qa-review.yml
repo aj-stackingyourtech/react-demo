@@ -10,15 +10,18 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          ref: main
+      - name: Reset promotion branch
+        run: |
+          git fetch origin qa:qa
+          git reset --hard qa
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GH_PAT }}
           commit-message: Latest version ready to QA
-          title: Custom title
           body: Please review https://yellow-sand-098426110.azurestaticapps.net/
-          branch: main
-          assignees: aj-stackingyourtech
-          reviewers: aj-stackingyourtech
+          branch: qa-testing
+          assignees: aj-lawrence-13delta
+          reviewers: aj-lawrence-13delta
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
